@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    position: fixed;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    padding: 0 20px;
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 7%, rgba(253,29,29,1) 100%);
+opacity: 0.9;
+  height: 100%;
+}
+h1 span{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 40px;
+        margin-top: 175px;
+    }
+}
